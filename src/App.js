@@ -1,4 +1,6 @@
 import "./App.css";
+import React from "react";
+import GradientGenerator from "./GradientGenerator";
 
 function App() {
   return (
@@ -6,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>CSS Gradient Code Generator </h1>
       </header>
+      <GradientGenerator />
     </div>
   );
 }

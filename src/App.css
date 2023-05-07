@@ -1,6 +1,62 @@
-.App {
+h1 {
   text-align: center;
+  color: rgba(112, 110, 110, 0.745);
 }
-.App {
-  text-align: center;
+
+.gradient-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-preview {
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.gradient-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.color-inputs {
+  display: flex;
+  gap: 8px;
+}
+
+.color-inputs label {
+  font-weight: bold;
+}
+
+.angle-input {
+  display: flex;
+  gap: 8px;
+}
+
+.angle-input label {
+  font-weight: bold;
+}
+
+.angle-input input[type="range"] {
+  width: 200px;
+}
+
+.angle-input span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
